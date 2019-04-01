@@ -1,3 +1,3 @@
 # Table of Contents
 
-[Topic selection](blog-entries/week-1.md)
+Entry 1: [Topic selection](blog-entries/week-1.md)
