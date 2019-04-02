@@ -22,4 +22,4 @@ HaxeFlixel is an engine for creating 2D games.
 2. Have an idea of what to make. I plan to create a web game using HaxeFlixel.
 3. It doesn't hurt to explore. Take time to look around.
 
-[Previous](../README.md) | [Home](../README.md) | [Next](blog-entries/week-2.md)
+[Previous](../README.md) | [Home](../README.md) | [Next](week-2.md)
