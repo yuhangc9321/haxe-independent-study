@@ -55,9 +55,15 @@ class PlayState extends FlxState
     }
 }
 ```
-This doesn't output directly to the console, but rather displays it visually using the method FlxText.  
+This doesn't output directly to the console, but rather displays it visually using FlxText:  
 ![Hello world example](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/hello-world.png "Hello world example")
-
+Which is used in the above function create()
+```
+var text = new flixel.text.FlxText(0, 0, 0, "Hello World", 64);
+        text.screenCenter();
+        add(text);
+```
+  
 ### Testing
 Then I'm supposed to use lime to test my program:
 ```
