@@ -2,7 +2,7 @@
 
 ## Haxe
 HaxeFlixel is what I'm using to make my product.  
-HaxeFlixel is a 2d game engine based on Haxe, but it is not really necessary to know everything about Haxe.  
+HaxeFlixel is a 2d game engine/library based on Haxe, but it is not really necessary to know everything about Haxe.  
 So I skimmed through this tutorial:  
 [https://haxe.org/manual/introduction.html](https://haxe.org/manual/introduction.html)
 
@@ -56,7 +56,7 @@ class PlayState extends FlxState
 }
 ```
 This doesn't output directly to the console, but rather displays it visually using FlxText:  
-![Hello world example](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/hello-world.png "Hello world example")
+![Hello world example](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/hello-world.png "Hello world example")  
 Which is used in the above function create()
 ```
 var text = new flixel.text.FlxText(0, 0, 0, "Hello World", 64);
@@ -65,7 +65,7 @@ var text = new flixel.text.FlxText(0, 0, 0, "Hello World", 64);
 ```
   
 ### Testing
-Then I'm supposed to use lime to test my program:
+After completing the template, I used lime to test my program:
 ```
 lime test html5
 lime test flash
