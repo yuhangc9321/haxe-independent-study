@@ -56,7 +56,7 @@ class PlayState extends FlxState
 }
 ```
 This doesn't output directly to the console, but rather displays it visually using the method FlxText.  
-![Hello world example](https://github.com/yuhangc9321/haxe-independent-study/blog-images/hello-world.png)
+![Hello world example](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/hello-world.png "Hello world example")
 
 ### Testing
 Then I'm supposed to use lime to test my program:
