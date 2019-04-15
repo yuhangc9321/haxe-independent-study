@@ -6,3 +6,4 @@ I chose to learn Haxe, a progamming language.
 
 * [Entry 1: Topic Selection](blog-entries/week-1.md)
 * [Entry 2: Getting Started](blog-entries/week-2.md)
+* [Entry 3: ](blog-entries/week-3.md)
