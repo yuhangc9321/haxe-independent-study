@@ -87,4 +87,4 @@ then moved on to HaxeFlixel's library. There were custom methods that learning a
 3. **Look to the documentations of the relevant dependencies when stuck.** Some packages can include dependencies, which may have their own documentations, 
 so look carefully at the command being typed.
 
-[Previous](../week-2.md) | [Home](../README.md) | [Next](week-4.md)
+[Previous](week-2.md) | [Home](../README.md) | [Next](week-4.md)

@@ -80,4 +80,4 @@ Which outputs `Main.hx:3: Hello world`.
 2. Begin with something simple so as to not get overwhelmed.
 3. Read instructions carefully. It's easy to get lost.
 
-[Previous](../week-1.md) | [Home](../README.md) | [Next](week-3.md)
+[Previous](week-1.md) | [Home](../README.md) | [Next](week-3.md)
