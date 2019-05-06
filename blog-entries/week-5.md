@@ -93,8 +93,7 @@ It should look like this:
 ![Groundwork example](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/0006.png "Groundwork example")  
 
 ## Takeaways
-1. **Practicing good organization in the start can help a lot later.** The same goes the other way. Bad organization compounds when left ignored.  
-"If you can't affored to do it right then you can't afford to do it over." I made use of HaxeFlixel's state stucture.
-2. **Mockups don't need to be perfect** There's not need to flush out every aspect of a mockup when most of that code is going to be changed or scrapped in the final product. It's only a demonstration of basic functionality.
+1. **Practicing good organization in the start can help a lot later.** I made use of HaxeFlixel's state stucture. The same goes the other way. Bad organization compounds when left ignored.
+2. **Mockups don't need to be perfect.** It's only a demonstration of basic functionality. There's not need to flush out every aspect of a mockup when most of that code is going to be changed or scrapped in the final product.
 
 [Previous](week-4.md) | [Home](../README.md) | [Next](week-6.md)
