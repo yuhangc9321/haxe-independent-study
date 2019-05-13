@@ -4,8 +4,11 @@ import flixel.FlxState;
 
 class PlayState extends FlxState
 {
+	var _grpItems:FlxTypedGroup<Item>;
+	
 	override public function create():Void
 	{
+		_grpItems = new FlxTypedGroup<
 		super.create();
 	}
 

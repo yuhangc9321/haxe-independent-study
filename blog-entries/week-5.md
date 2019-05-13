@@ -1,4 +1,4 @@
-# HaxeFlixel Tutorial
+# HaxeFlixel Tutorial 3-4
 
 ## Building and running
 As a workaround to my problem with testing in flash, I built and ran the codebase in html5 for now, which creates an index.html that previews in the Cloud9 IDE fine.
