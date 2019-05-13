@@ -217,7 +217,7 @@ function checkEnemyVision(e:Enemy):Void
         e.seesPlayer = false;
 }
 ```
-And it should look like this:
+And it should look like this:  
 ![Enemy example](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/0018b.png "Enemy example")  
 
 ## Takeaways
