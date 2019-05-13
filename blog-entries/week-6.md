@@ -2,13 +2,13 @@
 
 ## Tutorial
 Tutorial is linked here:
-[https://haxeflixel.com/documentation/tutorial/](https://haxeflixel.com/documentation/tutorial/)
+[https://haxeflixel.com/documentation/tutorial/](https://haxeflixel.com/documentation/tutorial/)  
 I completed parts 3 and 4 during week 5. This week I completed parts 5 through 9.
 
 ### Part 5-6
-Part 5 and 6 covered creating and loading the tile-map. This is the space the player will move in.
-HaxeFlixel has a built in function for loading tilemaps called FlxOgmoLoader.
-This code generates FlxTileMap from the walls layer of the tilemap and properly sets collision for the floors and walls.
+Part 5 and 6 covered creating and loading the tile-map. This is the space the player will move in.  
+HaxeFlixel has a built in function for loading tilemaps called FlxOgmoLoader.  
+This code generates FlxTileMap from the walls layer of the tilemap and properly sets collision for the floors and walls.  
 ```
 _map = new FlxOgmoLoader(AssetPaths.room_001__oel);
 _mWalls = _map.loadTilemap(AssetPaths.tiles__png, 16, 16, "walls");
@@ -35,13 +35,13 @@ function placeEntities(entityName:String, entityData:Xml):Void
     }
 }
 ```
-Which as it is, sets _player's x and y values to the x and y values specified for the player entity in the tilemap.
+Which as it is, sets _player's x and y values to the x and y values specified for the player entity in the tilemap.  
 This code shrinks the player hitbox so the user doesn't have to align perfectly in order to fit through doorways.
 ```
 setSize(8, 14);
 offset.set(4, 2);
 ```
-The player should be able to move around in the loaded tilemap:
+The player should be able to move around in the loaded tilemap:  
 ![Tilemap](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/0013b.png "Tilemap")  
 
 ## Part 7
@@ -55,8 +55,8 @@ FlxG.camera.follow(_player, TOPDOWN, 1);
 
 ## Part 8
 This part deals with coin pickups.  
-First, coins are added as entities to the tilemap and a coin image asset is saved to assets/images.
-A new class is created called Coin.hx and new FlxGroup in PlayState is used to group the coins together.
+First, coins are added as entities to the tilemap and a coin image asset is saved to assets/images.  
+A new class is created called Coin.hx and new FlxGroup in PlayState is used to group the coins together.  
 ```
 class Coin extends FlxSprite
 {
@@ -110,14 +110,14 @@ function finishKill(_):Void
     exists = false;
 }
 ```
-The placed coins the the level should look like this:
+The placed coins the the level should look like this:  
 ![Coin example](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/0016b.png "Coin example")  
 
 ### Part 9
 Part 9 deals with enemies and ai.  
 Enemies are mostly identical to the player class, especially in animation and movement.  
 First, they are placed in the tilemap.  
-Then, a class is created for them called Enemy.hx
+Then, a class is created for them called Enemy.hx  
 Then a FlxGroup is created for them and they are added to the PlayState.
 ```
 var _grpEnemies:FlxTypedGroup<Enemy>;
@@ -199,7 +199,7 @@ override public function update(elapsed:Float):Void
     super.update(elapsed);
 }
 ```
-The enemy switches to `Chase` based on whether they can see the player or not, otherwise they are in `Idle`.
+The enemy switches to `Chase` based on whether they can see the player or not, otherwise they are in `Idle`.  
 This is the vision logic:
 ```
  FlxG.collide(_grpEnemies, _mWalls);
