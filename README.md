@@ -9,3 +9,4 @@ I chose to study Haxe, a progamming language.
 * [Entry 3: HaxeFlixel](blog-entries/week-3.md)
 * [Entry 5: HaxeFlixel Tutorial 3-4](blog-entries/week-5.md)
 * [Entry 6: HaxeFlixel Tutorial 5-9](blog-entries/week-6.md)
+* [Entry 7: HaxeFlixel Tutorial 10-12](blog-entries/week-7.md)
