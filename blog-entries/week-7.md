@@ -142,7 +142,7 @@ function startCombat(E:Enemy):Void
 }
 ```
 The CombatHUD should look like this:
-![CombatHUD](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/0020b.png "CombatHUD")  
+![CombatHUD](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/0020.png "CombatHUD")  
 
 ## Part 11
 Part 11 covers winning and losing and a game over screen.
