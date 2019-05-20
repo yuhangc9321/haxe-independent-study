@@ -4,12 +4,12 @@
 [https://haxeflixel.com/documentation/tutorial/](https://haxeflixel.com/documentation/tutorial/)  
 I completed parts 5 through 9 during week 6. This week I completed parts 10 through 12.  
 I am (probably) not planning on completing parts 13 and 14.  
-Part 13 covers adding conditionals to make the game work better when built to different platforms.
-Part 14 covers polish (minor additional effects regarding graphics and such).
+Part 13 covers adding conditionals to make the game work better when built to different platforms.  
+Part 14 covers polish (i.e. minor additional effects regarding graphics and such).
 
 ## Part 10
 Part 10 covers the user interface and the combat screen.  
-This HUD class initializes and adds a background, FlxText objects for health and money, and icons to go beside those.
+This HUD class initializes and adds a background, FlxText objects for health and money, and icons to go beside those.  
 The `spr.scrollFactor.set(0, 0);` surrounded by a for loop is meant to make these HUD objects stay on the same position relative to the screen.  
 ```
 package;
@@ -255,7 +255,12 @@ In the playerTouchCoin() function:
 _sndCoin.play(true);
 ```
 
-Takeaways
+## Build
+Built to Flash, .swf format.
+Hosted on this flash hosting website I found.
+[http://www.fastswf.com/nFZKlKo](http://www.fastswf.com/nFZKlKo)
+
+## Takeaways
 1. **Find the data type that fits best.** In this language, the type names are intuitive (e.g. FlxSound) so it helps make coming back to the code again later easier.
 This advice applied other languages could mean using a hash map may not be necessary when an array would suffice. Or that it would be better to use a bool rather than a string or a integer for toggling between two things.
 This helps avoid unnecessary complexity in code and makes reading it easier.
