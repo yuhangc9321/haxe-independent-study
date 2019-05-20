@@ -267,7 +267,7 @@ This advice applied other languages could mean using a hash map may not be neces
 Or that it would be better to use a bool rather than a string or a integer for toggling between two things.  
 This helps avoid unnecessary complexity in code and makes reading it easier.  
 2. **Think about good UX.** The developer can be too used to their own product that some problems can go unnoticed.  
-Try asking a friend test out your product and give feedback. 
+Try asking a friend test out your product and give feedback (i.e. playtesting).  
 The game gives feedback for every action the player takes, both through audio (e.g. button click sound) and visual cues (e.g. damage popups).
 
 
