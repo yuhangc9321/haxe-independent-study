@@ -226,7 +226,7 @@ This goes in the check for if the player is moving and plays step.wav.
 ```
 _sndStep.play();
 ```
-Enemies also get footsteps, but their volume varies based on distance to the player.
+Enemies also get footsteps, but their volume varies based on distance to the player.  
 In Enemy.hx:
 ```
 var _sndStep:FlxSound;
@@ -256,14 +256,16 @@ _sndCoin.play(true);
 ```
 
 ## Build
-Built to Flash, .swf format.
-Hosted on this flash hosting website I found.
+Built to Flash, .swf format.  
+Hosted on this flash hosting website I found.  
 [http://www.fastswf.com/nFZKlKo](http://www.fastswf.com/nFZKlKo)
+![fastswf](https://github.com/yuhangc9321/haxe-independent-study/blob/master/blog-images/ftfswf.png "fastswf") 
 
 ## Takeaways
-1. **Find the data type that fits best.** In this language, the type names are intuitive (e.g. FlxSound) so it helps make coming back to the code again later easier.
-This advice applied other languages could mean using a hash map may not be necessary when an array would suffice. Or that it would be better to use a bool rather than a string or a integer for toggling between two things.
-This helps avoid unnecessary complexity in code and makes reading it easier.
+1. **Find the data type that fits best.** In this language, the type names are intuitive (e.g. FlxSound) so it helps make coming back to the code again later easier.  
+This advice applied other languages could mean using a hash map may not be necessary when an array would suffice.  
+Or that it would be better to use a bool rather than a string or a integer for toggling between two things.  
+This helps avoid unnecessary complexity in code and makes reading it easier.  
 2. **Think about good UX.** The developer can be too used to their own product that some problems can go unnoticed. Try asking a friend test out your product and give feedback.
 
 
